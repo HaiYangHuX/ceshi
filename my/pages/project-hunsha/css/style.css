@@ -1,0 +1,324 @@
+.w{
+	width: 1200px;
+	/* height: 100%; */
+	/* background: skyblue; */
+	margin: 0 auto;
+}
+/* 头部开始 */
+.header .nav{
+	height: 80px;
+	/* background: pink; */
+}
+.header .logo{
+	float: left;
+	margin-left: 66px;
+}
+.header .logo a{
+	display: block;
+	width: 180px;
+	height: 80px;
+	background: url(../img/首页_02.png) no-repeat center;
+	text-indent: -9999px;
+	text-align: center;
+	
+}
+.header .subnav{
+	float: right;
+	margin-right: 60px;
+}
+.header .subnav .subnav-menu{
+	float: left;
+	height: 80px;
+	margin-left: 80px;
+}
+.header .subnav-menu .subnav-pull{
+	width: 64px;
+	height: 72px;
+	color: pink;
+	position: absolute;
+	top: 54px;
+	z-index: 110;
+	background-color: #fff;
+	line-height: 33px;
+	text-align: center;
+	display: none;
+}
+.header .subnav-menu:hover .subnav-pull{
+	display: block;
+}
+.header .subnav-menu .subnav-list{
+	display: block;
+	height: 100%;
+	line-height: 80px;
+	font-size: 16px;
+	color: #666;
+	position: relative;
+}
+.header .subnav-menu .subnav-list.active{
+	color: #1d1d1d;
+}
+.header .subnav-menu .subnav-list:hover{
+	color: #1d1d1d;
+}
+.header .subnav-menu .subnav-list:hover .subnav-line{
+	display: block;
+}
+.header .subnav-menu .subnav-line.active{
+	display: block;
+	height: 2px;
+	width: 100%;
+	background: #b9ab77;
+	position: absolute;
+	bottom: 28px;
+}
+.header .subnav-menu .subnav-line{
+	display: none;
+	height: 2px;
+	width: 100%;
+	background: #b9ab77;
+	position: absolute;
+	bottom: 28px;
+}
+/* 头部结束 */
+
+.banner{
+	/* width: 100%; */
+	height: 1876px;
+}
+.banner .products .products-img{
+	width: 708px;
+	height: 780px;
+	float: left;
+}
+.banner .products .products-list{
+	width: 416px;
+	height: 367px;
+	float: right;
+	margin-left: 74px;
+}
+.banner .products-title{
+	border-left: 2px solid #454545;
+	height: 48pxpx;
+	margin-top: 22px;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+.banner .products .products-title-tag{
+	font-size: 30px;
+	color: #3a3a3a;
+	text-indent: 20px;
+}
+.banner .products .her-style{
+	font-size: 16px;
+	color: #4c4c4c;
+	text-indent: 140px;
+}
+.banner .products .products-moner .moner-53,
+.banner .products .products-moner .moner-color{
+	font-size: 16px;
+	color: #c1c1c1;
+}
+.banner .products .products-moner .moner-53{
+	text-indent: 158px;
+}
+.banner .products .products-moner .moner-color{
+	text-indent: 83px;
+}
+.banner .products .summary-list{
+	font-size: 14px;
+	color: #cacaca;
+	line-height: 20px;
+}
+ .banner .products .summary{
+	 margin-top: 27px;
+	 margin-left: 15px;
+ }
+ .banner .products-go{
+	 width: 148px;
+	 height: 43px;
+	 display: block;
+	 border: 1px solid #f5f5f5;
+	 text-align: center;
+	 line-height: 43px;
+	 margin: 0 auto;
+	 margin-top: 58px;
+ }
+ .banner .products-go .go-yy{
+	 display: block;
+	 width: 100%;
+	 height: 100%;
+	 color: #2d2d2d;
+	 font-size: 12px;
+ }
+ .banner .products-two{
+	 height: 1046px;
+	 margin-top: 50px;
+	 width: 710px;
+ }
+.banner .products-two .products-two-text{
+	 margin-top: 60px;
+	 margin-bottom: 40px;
+	 color: #6a6a6a;
+	 font-size: 14px;
+	 line-height: 20px;
+ }
+.banner .products-two .products-two-sm,
+.banner .products-two .products-two-color{
+	color: #6a6a6a;
+	font-size: 16px;
+	line-height: 30px;
+}
+/* 头部结束 */
+
+/* 最新产品 */
+.news-box{
+	position: relative;
+}
+.news-release{
+	width: 100%;
+	height: 555px;
+	background-color: #dddddd;
+}
+.news-release .news-release-btn{
+	margin-bottom: 40px;
+}
+.news-release .btn-new{
+	width: 75px;
+	height: 30px;
+	display: block;
+	background-color: #f7f5f5;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	margin-top: 100px;
+}
+
+ .news-release .btn-old{
+	 width: 40px;
+	 height: 30px;
+	 display: block;
+	 background-color: #f7f5f5;
+	 font-size: 12px;
+	 line-height: 30px;
+	 text-align: center;
+	 float: left;
+	 margin-left: 40px;
+	 margin-top: 100px;
+ }
+ .news-release .new-screenshot{
+	 width: 1200px;
+	 height: 220px;
+ }
+ .news-release .new-screenshot .new-img{
+	 background-image: url(../img/1480328662982%20440×548.png);
+	 display: block;
+	 width: 160px;
+	 height: 220px;
+	 float: left;
+	 margin-right: 48px;
+ }
+.news-release .new-screenshot .new-img.new-img-2{
+	background-image: url(../img/1480472644461%20440×548.png);
+}
+.news-release .new-screenshot .new-img.new-img-3{
+	background-image: url(../img/1479373376866%20440×548.png);
+}
+.news-release .new-screenshot .new-img.new-img-4{
+	background-image: url(../img/1480472700653%20440×548.png);
+}
+.news-release .new-screenshot .new-img.new-img-5{
+	background-image: url(../img/1480314365643%201100×1303.png);
+}
+ .news-release .new-screenshot .new-img.new-img-6{
+	 background-image: url(../img/JH11261采集到Wedding%20Dress2552图_花瓣.png);
+	 margin-right: 0;
+ }
+.news-release .news-release-more{
+	width: 148px;
+	height: 43px;
+	border: 1px solid #bbbaba;
+	line-height: 43px;
+	text-align: center;
+	margin: 60px auto;
+}
+.news-release .news-release-more .more-list{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #bdbcbc;
+	font-size: 12px;
+}
+.news-release .news-release-arr .news-arr-1{
+	position: absolute;
+	top: 256px;
+	left: -42px;
+	width: 32px;
+	height: 50px;
+	background: #cacaca url(../img/you箭头.png) no-repeat center;
+}
+.news-release .news-release-arr .news-arr-2{
+	position: absolute;
+	top: 256px;
+	right: -42px;
+	width: 32px;
+	height: 50px;
+	background: #cacaca url(../img/箭头.png) no-repeat center;
+}
+ /* 最新产品结束 */
+/* 底部开始 */
+.footer-box{
+	width: 100%;
+	height: 100px;
+	background-color: #4d4d4d;
+}
+.footer{
+	height: 100px;
+	line-height: 26px;
+	/* margin-top: 86px; */
+}
+.footer .copyright{
+	float: left;
+	margin-top: 30px;
+}
+
+.footer .copyright .copyright-num,
+.footer .copyright .copyright-b{
+	color: #d0d0d0;
+	font-size: 12px;
+}
+.joinus{
+	float: right;
+	/* margin-top: 20px; */
+}
+.joinus .joinus-icon{
+	background: url(../img/11112323.png);
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 8px;
+	left: -12px;
+}
+.joinus .joinus-list{
+	margin-top: 30px;
+	position: relative;
+}
+.joinus .joinus-f{
+	float: left;
+	font-size: 12px;
+	color: #d0d0d0;
+}
+.footer .joinus .joinus-d{
+	margin-right: 68px;
+}
+.footer .joinus .joinus-2018{
+	font-size: 12px;
+	color: #d0d0d0;
+}
+.footer .joinus .call-us{
+	color: #d0d0d0;
+}
+ .footer .joinus .joinus-call{
+	 margin-right: 60px;
+ }
+ /* 底部结束 */
